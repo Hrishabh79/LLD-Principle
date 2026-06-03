@@ -1,4 +1,4 @@
-package Lesson1;
+package Lesson1.Example1.probalamaticCode;
 
 public class Employee {
 
