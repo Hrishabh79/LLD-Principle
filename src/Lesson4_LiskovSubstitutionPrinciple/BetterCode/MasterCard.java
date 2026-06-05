@@ -1,7 +1,5 @@
 package Lesson4_LiskovSubstitutionPrinciple.BetterCode;
 
-import Lesson4_LiskovSubstitutionPrinciple.ProblematicCode.CreditCard;
-
 public class MasterCard extends CreditCard implements InternationalPaymentCompatibleCreditCard {
     @Override
     public void tapAndPay() {
