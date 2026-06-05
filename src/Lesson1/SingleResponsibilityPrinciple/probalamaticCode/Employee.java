@@ -1,4 +1,4 @@
-package Lesson1.Example1.probalamaticCode;
+package Lesson1.SingleResponsibilityPrinciple.probalamaticCode;
 
 public class Employee {
 

@@ -1,4 +1,4 @@
-package Lesson1.Example1.BetterCode;
+package Lesson1.SingleResponsibilityPrinciple.BetterCode;
 
 public class EmployeePerformanceEvaluator {
 
