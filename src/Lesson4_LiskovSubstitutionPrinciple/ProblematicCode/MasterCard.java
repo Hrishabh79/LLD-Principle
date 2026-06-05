@@ -20,4 +20,15 @@ public class MasterCard extends CreditCard{
     public void mandatePayment() {
         System.out.println("Mandate payment impl of MasterCard");
     }
+
+    @Override
+    public void upiPayment() {
+        System.out.println("throw new Error");
+    }
+
+    @Override
+    public void internationlPayment() {
+        System.out.println("intl payment impl of MasterCard");
+
+    }
 }

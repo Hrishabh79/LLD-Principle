@@ -26,6 +26,10 @@ public  abstract class CreditCard {
 
     public abstract void mandatePayment();
 
+    public abstract void upiPayment();
+
+    public abstract void internationlPayment();
+
     public void displayCreditCardDetails() {
         System.out.println("CC Number: " + this.ccNumber + " , With Owner Name: " + this.ownerName);
     }

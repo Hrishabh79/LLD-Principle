@@ -20,4 +20,14 @@ public class RupayCard extends CreditCard{
     public void mandatePayment() {
         System.out.println("Mandate payment impl of RupayCard");
     }
+
+    @Override
+    public void upiPayment() {
+        System.out.println("upiPayemt impl of RupayCard");
+    }
+
+    @Override
+    public void internationlPayment() {
+        System.out.println("Throw new Error");
+    }
 }

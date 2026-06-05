@@ -20,4 +20,14 @@ public class VisaCard extends CreditCard{
     public void mandatePayment() {
         System.out.println("Mandate payment impl of VISA");
     }
+
+    @Override
+    public void upiPayment() {
+        System.out.println("Throw new error");
+    }
+
+    @Override
+    public void internationlPayment() {
+        System.out.println("intl payment impl of VisaCard");
+    }
 }
